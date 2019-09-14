@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		5F6C9BD2232BA8A0009F4ECF /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		5F6C9BD4232D60C4009F4ECF /* EditActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditActivityController.swift; sourceTree = "<group>"; };
+		5F6C9BD6232D6318009F4ECF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FB16E4B23271DB8001877FC /* EasyImageCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyImageCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB16E4E23271DB8001877FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB16E5023271DB8001877FC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		5FB16E4223271DB8001877FC = {
 			isa = PBXGroup;
 			children = (
+				5F6C9BD6232D6318009F4ECF /* README.md */,
 				5FB16E4D23271DB8001877FC /* EasyImageCollector */,
 				5FB16E4C23271DB8001877FC /* Products */,
 			);
