@@ -4,3 +4,6 @@ This iOS application will allow users to capture and categorize photos within a 
 ## What is with the Categories?
 One of the design motiviations for this application is to provide a way for non-technical end users to collect photos that can be later used to create or refine a machine learning algorithm to automate the detection of categorized photos. The other reason for the categories is to provide a field collection mechanism to quickly sort photos to determine if action is needed (e.g., assessing structures after a natural disaster).
 
+## Designed for Offline
+This application is designed to operate without reliable cellular service. All of the photos and the organizational metadata for the photos are stored locally instead of synchronized with a cloud service. This will allow the app to function in many different types of environments.
+

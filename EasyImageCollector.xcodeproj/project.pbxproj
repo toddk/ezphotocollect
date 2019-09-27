@@ -3,12 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091CAFEC9512850AD90911C5 /* Pods_EasyImageCollector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83583F6FEC13D319692673C3 /* Pods_EasyImageCollector.framework */; };
+		5F4E2CD0233ECCF90085522C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E2CCF233ECCF90085522C /* MainViewModel.swift */; };
+		5F5F8CF02336B7F10088FF8B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5F8CEF2336B7F10088FF8B /* Photo.swift */; };
+		5F5F8CF22336B9B50088FF8B /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5F8CF12336B9B50088FF8B /* Activity.swift */; };
+		5F5F8CF5233789CE0088FF8B /* ActivitiyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5F8CF4233789CE0088FF8B /* ActivitiyViewModel.swift */; };
 		5F6C9BD3232BA8A0009F4ECF /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C9BD2232BA8A0009F4ECF /* ActivityViewController.swift */; };
 		5F6C9BD5232D60C4009F4ECF /* EditActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C9BD4232D60C4009F4ECF /* EditActivityController.swift */; };
+		5F6C9BD9232D6491009F4ECF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6C9BD8232D6491009F4ECF /* CoreLocation.framework */; };
+		5F6C9BDB232D64B0009F4ECF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6C9BDA232D64B0009F4ECF /* AVFoundation.framework */; };
 		5FB16E4F23271DB8001877FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB16E4E23271DB8001877FC /* AppDelegate.swift */; };
 		5FB16E5123271DB8001877FC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB16E5023271DB8001877FC /* CameraViewController.swift */; };
 		5FB16E5423271DB8001877FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB16E5223271DB8001877FC /* Main.storyboard */; };
@@ -19,9 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F4E2CCF233ECCF90085522C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5F5F8CEF2336B7F10088FF8B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		5F5F8CF12336B9B50088FF8B /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		5F5F8CF4233789CE0088FF8B /* ActivitiyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyViewModel.swift; sourceTree = "<group>"; };
 		5F6C9BD2232BA8A0009F4ECF /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		5F6C9BD4232D60C4009F4ECF /* EditActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditActivityController.swift; sourceTree = "<group>"; };
 		5F6C9BD6232D6318009F4ECF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F6C9BD8232D6491009F4ECF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5F6C9BDA232D64B0009F4ECF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5FB16E4B23271DB8001877FC /* EasyImageCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyImageCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB16E4E23271DB8001877FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB16E5023271DB8001877FC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +44,9 @@
 		5FB16E5A23271DB8001877FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FB16E6023271E6B001877FC /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		5FB16E622329C65C001877FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		60AA4EEC3DCFCD83681A36C5 /* Pods-EasyImageCollector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyImageCollector.release.xcconfig"; path = "Target Support Files/Pods-EasyImageCollector/Pods-EasyImageCollector.release.xcconfig"; sourceTree = "<group>"; };
+		83583F6FEC13D319692673C3 /* Pods_EasyImageCollector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyImageCollector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38F65CBD84F66E7B97FF010 /* Pods-EasyImageCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyImageCollector.debug.xcconfig"; path = "Target Support Files/Pods-EasyImageCollector/Pods-EasyImageCollector.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,18 +54,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6C9BDB232D64B0009F4ECF /* AVFoundation.framework in Frameworks */,
+				5F6C9BD9232D6491009F4ECF /* CoreLocation.framework in Frameworks */,
+				091CAFEC9512850AD90911C5 /* Pods_EasyImageCollector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F5F8CEE2336B7D40088FF8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F5F8CEF2336B7F10088FF8B /* Photo.swift */,
+				5F5F8CF12336B9B50088FF8B /* Activity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F5F8CF3233789B30088FF8B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5F5F8CF4233789CE0088FF8B /* ActivitiyViewModel.swift */,
+				5F4E2CCF233ECCF90085522C /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5F6C9BD7232D6491009F4ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C9BDA232D64B0009F4ECF /* AVFoundation.framework */,
+				5F6C9BD8232D6491009F4ECF /* CoreLocation.framework */,
+				83583F6FEC13D319692673C3 /* Pods_EasyImageCollector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FB16E4223271DB8001877FC = {
 			isa = PBXGroup;
 			children = (
 				5F6C9BD6232D6318009F4ECF /* README.md */,
 				5FB16E4D23271DB8001877FC /* EasyImageCollector */,
 				5FB16E4C23271DB8001877FC /* Products */,
+				5F6C9BD7232D6491009F4ECF /* Frameworks */,
+				D4E520B69AED1C8878FAA9FD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,18 +113,29 @@
 		5FB16E4D23271DB8001877FC /* EasyImageCollector */ = {
 			isa = PBXGroup;
 			children = (
+				5F5F8CF3233789B30088FF8B /* ViewModels */,
+				5F5F8CEE2336B7D40088FF8B /* Models */,
 				5FB16E4E23271DB8001877FC /* AppDelegate.swift */,
 				5FB16E5023271DB8001877FC /* CameraViewController.swift */,
 				5FB16E622329C65C001877FC /* MainViewController.swift */,
 				5F6C9BD2232BA8A0009F4ECF /* ActivityViewController.swift */,
+				5F6C9BD4232D60C4009F4ECF /* EditActivityController.swift */,
 				5FB16E5223271DB8001877FC /* Main.storyboard */,
 				5FB16E5523271DB8001877FC /* Assets.xcassets */,
 				5FB16E5723271DB8001877FC /* LaunchScreen.storyboard */,
 				5FB16E5A23271DB8001877FC /* Info.plist */,
 				5FB16E6023271E6B001877FC /* CameraPreviewView.swift */,
-				5F6C9BD4232D60C4009F4ECF /* EditActivityController.swift */,
 			);
 			path = EasyImageCollector;
+			sourceTree = "<group>";
+		};
+		D4E520B69AED1C8878FAA9FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38F65CBD84F66E7B97FF010 /* Pods-EasyImageCollector.debug.xcconfig */,
+				60AA4EEC3DCFCD83681A36C5 /* Pods-EasyImageCollector.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FB16E5D23271DB8001877FC /* Build configuration list for PBXNativeTarget "EasyImageCollector" */;
 			buildPhases = (
+				F567862577E12AC8EED5144B /* [CP] Check Pods Manifest.lock */,
 				5FB16E4723271DB8001877FC /* Sources */,
 				5FB16E4823271DB8001877FC /* Frameworks */,
 				5FB16E4923271DB8001877FC /* Resources */,
+				5FA34A635FE3D895F66919A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,16 +206,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FA34A635FE3D895F66919A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyImageCollector/Pods-EasyImageCollector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyImageCollector/Pods-EasyImageCollector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyImageCollector/Pods-EasyImageCollector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F567862577E12AC8EED5144B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyImageCollector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FB16E4723271DB8001877FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5F8CF02336B7F10088FF8B /* Photo.swift in Sources */,
 				5F6C9BD5232D60C4009F4ECF /* EditActivityController.swift in Sources */,
 				5FB16E5123271DB8001877FC /* CameraViewController.swift in Sources */,
 				5FB16E4F23271DB8001877FC /* AppDelegate.swift in Sources */,
 				5FB16E6123271E6B001877FC /* CameraPreviewView.swift in Sources */,
+				5F4E2CD0233ECCF90085522C /* MainViewModel.swift in Sources */,
 				5F6C9BD3232BA8A0009F4ECF /* ActivityViewController.swift in Sources */,
+				5F5F8CF5233789CE0088FF8B /* ActivitiyViewModel.swift in Sources */,
+				5F5F8CF22336B9B50088FF8B /* Activity.swift in Sources */,
 				5FB16E632329C65C001877FC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,9 +406,11 @@
 		};
 		5FB16E5E23271DB8001877FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38F65CBD84F66E7B97FF010 /* Pods-EasyImageCollector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3ZV5V8KUJ;
 				INFOPLIST_FILE = EasyImageCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,9 +425,11 @@
 		};
 		5FB16E5F23271DB8001877FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AA4EEC3DCFCD83681A36C5 /* Pods-EasyImageCollector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3ZV5V8KUJ;
 				INFOPLIST_FILE = EasyImageCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

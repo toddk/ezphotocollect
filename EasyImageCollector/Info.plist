@@ -42,6 +42,12 @@
 	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The Easy Image Collector application will use your location when collecting a photo.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>The Easy Image Collector application will use your location when collecting a photo.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The Easy Image Collector application will use your location when collecting a photo.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
