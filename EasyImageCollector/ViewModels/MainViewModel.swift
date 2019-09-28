@@ -7,21 +7,23 @@
 //
 
 import Foundation
+import UIKit
 
 class ActivityCellData {
     var name: String
     var formattedDateTime: String
-    var thumbPath: String
+    var thumb: UIImage
     
     init(displayName: String, dateTime: String, pathForThumbnail: String) {
         name = displayName
         formattedDateTime = dateTime
-        thumbPath = pathForThumbnail
+        thumb = UIImage(named: pathForThumbnail) ?? UIImage(named: "image1.jpg")!
     }
 }
 
 class MainViewModel {
-    
+    private var thumbs = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"]
+    private var names = ["Dorian", "Harvey", "Katrina", "Andrew", "Sandy"]
     private var dateFormatter: DateFormatter
     var numberOfActivities = 5
     
@@ -31,7 +33,7 @@ class MainViewModel {
     }
     
     func fetchActivityCellData(row: Int) -> ActivityCellData? {
-        return ActivityCellData(displayName: "Test", dateTime: dateFormatter.string(from: Date()), pathForThumbnail: "/path/to/img.jpg")
+        return ActivityCellData(displayName: names[row], dateTime: dateFormatter.string(from: Date()), pathForThumbnail: thumbs[row])
     }
     
     

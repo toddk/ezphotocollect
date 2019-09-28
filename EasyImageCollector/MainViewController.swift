@@ -29,7 +29,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "activityCell", for: indexPath)
         if let activityCell = viewModel.fetchActivityCellData(row: indexPath.row) {
             if let thumb = cell.viewWithTag(100) as? UIImageView {
-                thumb.image = UIImage(contentsOfFile: activityCell.thumbPath)
+                thumb.image = activityCell.thumb
             }
             if let name = cell.viewWithTag(200) as? UILabel {
                 name.text = activityCell.name
