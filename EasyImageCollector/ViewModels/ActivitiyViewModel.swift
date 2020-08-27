@@ -12,6 +12,9 @@ class ActivityViewModel {
     
     var categoriesEnabled = false
     let categories = [] as [String]
+    var activityName: String?
     
-    
+    func save() {
+        print("Saving...")
+    }
 }

@@ -21,6 +21,7 @@ class ActivityViewController: UIViewController {
         super.viewDidLoad()
         firstCategory.isEnabled = false
         secondCategory.isEnabled = false
+        activityName.becomeFirstResponder()
     }
     
     @IBAction func categoriesToggled(_ sender: UISwitch) {
@@ -30,9 +31,25 @@ class ActivityViewController: UIViewController {
     }
     
     @IBAction func save(_ sender: Any) {
+        viewModel.activityName = self.activityName.text
+        viewModel.save()
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cancel(_ sender: Any) {
+        let alertController = UIAlertController(title: "Discard New Activity?", message: "Are you sure you want to discard this activity?", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Yes", style: .default, handler: {(alert: UIAlertAction!) in self.dismiss(animated: true, completion: nil)}))
+        alertController.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
     
 }
+
+extension ActivityViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        activityName.resignFirstResponder()
+        return false
+    }
+}
+
+ 

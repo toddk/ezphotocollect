@@ -17,6 +17,10 @@ class MainViewController: UIViewController {
         fillUI()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        print("view did appear")
+    }
+    
     fileprivate func fillUI() {
         
     }
